@@ -1,0 +1,147 @@
+.border{
+    border: 2px solid  red;
+    margin: 3px;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.bg-black{
+    background-color: black;
+    color: white;
+}
+
+.invert{
+    filter: invert(1);
+}
+
+.bg-grey{
+    background-color: #121212;
+}
+
+.rounded{
+    border-radius: 7px;
+}
+
+.m-1{
+    margin: 5px;
+}
+
+.p-1{
+    padding: 10px;
+}
+
+.listmusic-container {
+            max-width: 45vh;
+            background-color: #383838;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .listmusic-header {
+            background-color: #404040;
+            padding: 10px 15px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        .listmusic-icon {
+            color: #daa520;
+            font-size: 16px;
+        }
+
+        .listmusic-folder {
+            margin-bottom: 15px;
+        }
+
+        .listmusic-folder-title {
+            padding: 8px 15px;
+            font-size: 13px;
+            color: #cccccc;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            cursor: pointer;
+            user-select: none;
+        }
+
+        .listmusic-folder-title:hover {
+            background-color: #404040;
+        }
+
+        .listmusic-toggle {
+            font-size: 12px;
+            transition: transform 0.2s ease;
+        }
+
+        .listmusic-folder.collapsed .listmusic-toggle {
+            transform: rotate(-90deg);
+        }
+
+        .listmusic-ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .listmusic-item {
+            display: flex;
+            align-items: center;
+            padding: 6px 15px 6px 35px;
+            font-size: 13px;
+            color: #cccccc;
+            cursor: pointer;
+            transition: background-color 0.2s ease;
+            gap: 8px;
+        }
+
+        .listmusic-item:hover {
+            background-color: #404040;
+        }
+
+        .listmusic-item.active {
+            background-color: #0078d4;
+            color: white;
+        }
+
+        .listmusic-audio-icon {
+            color: #c586c0;
+            font-size: 16px;
+            flex-shrink: 0;
+        }
+
+        .listmusic-filename {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+/* For Webkit browsers (e.g., Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #333; /* Dark color for the thumb */
+    border-radius: 6px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #222; /* Dark color for the track */
+  }
+  
+  /* For Firefox */
+  /* scrollbar-color: #333 #222; Dark color for the thumb and track in Firefox */
+  
