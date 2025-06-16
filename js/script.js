@@ -111,12 +111,12 @@ function updateAllButtons() {
 function updateProgress() {
     if (currentAudio && circle && songTime) {
         const progress = (currentAudio.currentTime / currentAudio.duration) * 100;
-        circle.style.left = progress + '%';
+           circle.style.left = progress + '%';
         
         // Update time
         const current = formatTime(currentAudio.currentTime);
         const total = formatTime(currentAudio.duration);
-        songTime.textContent = `${current} / ${total}`;
+        songTime.textContent = `${current} / ${total}`; 
     }
 }
 
